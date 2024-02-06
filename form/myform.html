@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang en>
+<link rel="stylesheet" href="form/myform.css">
+<head>
+  <h1 id="title">Extrada Survey Form</h1>
+  <p id="description">What did you like about the game?</p>
+</head>
+<body>
+  <form id="survey-form">
+    <label id="name-label">
+      Name<input id="name" type="text" required placeholder="John Doe">
+    </label>
+    <label id="email-label">
+      Email<input id="email" type="email" required placeholder="JohnDoe@email.com">
+    </label>
+    <label id="number-label">
+      Age<input id="number" type="number" min="13" max="100" placeholder="Age">
+    </label> 
+    <p>Which game did you play?</p>
+    <select id="dropdown">
+      <option>Extrada2D</option>
+      <option>Extrada3D</option>
+    </select>
+    <p>Would you recommend the game?
+    <input type="radio" value="Yes" name="name">Definitely</input>
+    <input type="radio" value="Yes" name="name">Maybe</input>
+    <input class="survey-form" type="radio" value="RPG" name="name">Not sure</input>
+    
+    <p>What games would you like to see next?(select all that apply)
+    <input class="survey-form" type="checkbox" value="check">FPS</input>
+    <input class="survey-form" type="checkbox" value="check">RPG</input>
+    <input class="survey-form" type="checkbox" value="check">Top-Down</input>
+    <input class="survey-form" type="checkbox" value="check">Adventure</input>
+    <input class="survey-form" type="checkbox" value="check">Clicker</input>
+    <input class="survey-form" type="checkbox" value="check">Card-game</input>
+    <p>Any comments or suggestions?</p>
+    <textarea placeholder="Enter your comments here..."></textarea>
+    <button id="submit">Submit</button>
+  </form>
+</body>
+</html>
