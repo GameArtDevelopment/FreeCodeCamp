@@ -1,23 +1,36 @@
 body {
-    background-color: grey;
+    background: grey;
   }
+* {
+  text-align: center;
+}
+
+label {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+hr {
+  width: 50%;
+}
   
-  #description {
+#description {
+
+}
+
+#survey-form {
+
+}
+
+#name {
+
+}
+
+#email {
+
+}
+
+#number {
   
-  }
-  
-  #survey-form {
-  
-  }
-  
-  #name {
-  
-  }
-  
-  #email {
-  
-  }
-  
-  #number {
-    
-  }
+}
